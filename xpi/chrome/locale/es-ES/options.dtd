@@ -1,5 +1,5 @@
-<!ENTITY prefwindow.title "Preferencias de Firefox-KDE5Wallet">
-<!ENTITY pane1.title "Preferencias de Firefox-KDE5Wallet">
+<!ENTITY prefwindow.title "Preferencias de Firefox-KWallet5">
+<!ENTITY pane1.title "Preferencias de Firefox-KWallet5">
 <!ENTITY wallet.label "Seleccionar cartera">
 <!ENTITY localwallet.label "Cartera Local">
 <!ENTITY localwallet.accesskey "L">

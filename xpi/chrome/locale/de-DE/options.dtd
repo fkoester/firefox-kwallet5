@@ -1,5 +1,5 @@
-<!ENTITY prefwindow.title "Firefox-KDE5Wallet Einstellungen">
-<!ENTITY pane1.title "Firefox-KDE5Wallet Einstellungen">
+<!ENTITY prefwindow.title "Firefox-KWallet5 Einstellungen">
+<!ENTITY pane1.title "Firefox-KWallet5 Einstellungen">
 <!ENTITY wallet.label "Brieftasche wählen">
 <!ENTITY localwallet.label "Lokale Brieftasche">
 <!ENTITY localwallet.accesskey "L">

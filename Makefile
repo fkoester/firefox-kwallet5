@@ -1,14 +1,14 @@
 VERSION = 1.0
 FIREFOX_VERSION = 41
 BUILD_DIR = build
-XPI_TARGET = firefox-kde5-wallet-$(VERSION).xpi
-TARBAL_TARGET = firefox-kde5-wallet-$(VERSION).tar.gz
+XPI_TARGET = firefox-kwallet5-$(VERSION).xpi
+TARBAL_TARGET = firefox-kwallet5-$(VERSION).tar.gz
 XPI_DIR = xpi
 ARCH := $(shell uname -m)
 # Update the ARCH variable so that the Mozilla architectures are used
 ARCH := $(shell echo ${ARCH} | sed 's/i686/x86/')
-LIBNAME = libkde5wallet_$(ARCH).so
-SOURCE = $(BUILD_DIR)/libkde5wallet.so
+LIBNAME = libkwallet5_$(ARCH).so
+SOURCE = $(BUILD_DIR)/libkwallet5.so
 TARGET_DIR = $(XPI_DIR)/components
 
 build: clean lib copy archive
@@ -30,7 +30,7 @@ lib:
 	cd $(BUILD_DIR) && cmake ../library && make
 
 tarbal: clean
-	cd .. && tar cvfz $(TARBAL_TARGET) --transform='s,firefox-kde5-wallet,kde5wallet@guillermo.molina,' --exclude $(BUILD_DIR) --exclude '.*'  --exclude '*.so' --exclude '*.xpi' firefox-kde5-wallet
+	cd .. && tar cvfz $(TARBAL_TARGET) --transform='s,firefox-kwallet5,kwallet5@guillermo.molina,' --exclude $(BUILD_DIR) --exclude '.*'  --exclude '*.so' --exclude '*.xpi' firefox-kwallet5
 
 clean:
 	rm -rf $(BUILD_DIR)

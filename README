@@ -1,13 +1,13 @@
-KDE5 Wallet password integration
+Firefox and KWallet5 password integration
 
-Firefox stores its passwords internaly, optionally protected by a master password. KDE has its own password manager called KWallet.
-KWallet stores every password in the KDE system, and protects access by a master password. With this extension you are able to use KWallet instead of the default Firefox password manager. It allows tighter integration of Firefox inside KDE.
+Firefox stores its passwords internaly, optionally protected by a master password. Plasma has its own password manager called KWallet5.
+KWallet5 stores every password in the Plasma system, and protects access by a master password. With this extension you are able to use KWallet5 instead of the default Firefox password manager. It allows tighter integration of Firefox inside Plasma.
 This extension is compatible with KDE5.X and Firefox > 33.
 
-The author of this project is Guillermo Adrian Molina, home page is: http://www.guillermomolina.com.ar/
+The author of this project is Guillermo Adrián Molina, home page is: http://www.guillermomolina.com/
 
-The project home page is: http://www.guillermomolina.com.ar/index.php/en/projects/firefox-kwallet-extension
+The project home page is: http://www.guillermomolina.com/en/projects/63-firefox-kwallet5
 
-The last development version can be downloaded via SVN from: http://svn.guillermomolina.com.ar/index.php/firefox-kde5-wallet
+The last development version can be downloaded via SVN from: http://svn.guillermomolina.com/index.php/firefox-kwallet5
 
 For development instructions see BUILD

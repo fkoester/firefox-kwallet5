@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
   <Description about="urn:mozilla:install-manifest">
-    <em:id>kde5wallet@guillermo.molina</em:id>
+    <em:id>kwallet5@guillermo.molina</em:id>
     <em:unpack>true</em:unpack>
     <em:type>2</em:type>
-    <em:name>KDE5 Wallet password integration</em:name>
+    <em:name>Plasma KWallet5 password integration</em:name>
     <em:version>1.0</em:version>
     <em:creator>Guillermo Adrian Molina</em:creator>
-    <em:description>This extension enable passwords and form logins to be stored in KDE5 Wallet</em:description>
-    <em:aboutURL>chrome://kde5wallet/content/about.xul</em:aboutURL>
-    <em:optionsURL>chrome://kde5wallet/content/options.xul</em:optionsURL>
+    <em:description>This extension enable passwords and form logins to be stored in Plasma's KWallet5</em:description>
+    <em:aboutURL>chrome://kwallet5/content/about.xul</em:aboutURL>
+    <em:optionsURL>chrome://kwallet5/content/options.xul</em:optionsURL>
     <em:targetApplication>
       <Description>
         <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
-<!DOCTYPE prefwindow SYSTEM "chrome://kde5wallet/locale/options.dtd">
-<prefwindow id="kde5wallet-preferences" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&prefwindow.title;">
+<!DOCTYPE prefwindow SYSTEM "chrome://kwallet5/locale/options.dtd">
+<prefwindow id="kwallet5-preferences" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul" title="&prefwindow.title;">
   <prefpane id="pane1" label="&pane1.title;">
     <preferences>
-      <preference id="wallet" name="extensions.kde5wallet.wallet" type="string"/> <!-- note that this is only an ASCII string - use unichar for unicode strings -->
-      <preference id="folder" name="extensions.kde5wallet.folder" type="string"/> <!-- note that this is only an ASCII string - use unichar for unicode strings -->
+      <preference id="wallet" name="extensions.kwallet5.wallet" type="string"/> <!-- note that this is only an ASCII string - use unichar for unicode strings -->
+      <preference id="folder" name="extensions.kwallet5.folder" type="string"/> <!-- note that this is only an ASCII string - use unichar for unicode strings -->
     </preferences>
 	<groupbox>
 		<caption label="&wallet.label;"/>

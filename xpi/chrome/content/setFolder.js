@@ -3,13 +3,13 @@ function initializeOverlay() {
 				getService(Components.interfaces.nsIPrefBranch);
 
 	try {
-		folder = pref.getCharPref("extensions.kde5wallet.folder");
+		folder = pref.getCharPref("extensions.kwallet5.folder");
 	} catch(e) {}
 
 	if (folder == "Unknown" ) {
 		var appInfo = Components.classes["@mozilla.org/xre/app-info;1"]
                         .getService(Components.interfaces.nsIXULAppInfo);
-		pref.setCharPref("extensions.kde5wallet.folder", appInfo.name );
+		pref.setCharPref("extensions.kwallet5.folder", appInfo.name );
 	}
 }
 
